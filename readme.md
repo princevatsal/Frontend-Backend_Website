@@ -6,10 +6,14 @@ Make an account on Airtabe And make 2 Base :-
 	1 for Users Data
 	2 for match Data
 <br>
-User Table Fields:-Name,Phone,Paytm no,email,password,Wallet,matchjoined,redeemed
+<br>
+<b>User Table Fields:-Name,Phone,Paytm no,email,password,Wallet,matchjoined,redeemed</b>
+<br>
 <img src="1.png">
 <br>
-Match Table Fields:-Matchname,time,Win,Perkill,entryfee,type,version,Ongoing,totaluser,matchId,room_username,room_password
+<br>
+<b>Match Table Fields:-Matchname,time,Win,Perkill,entryfee,type,version,Ongoing,totaluser,matchId,room_username,room_password</b>
+<br>
 <img src="2.png">
 <br>
 
