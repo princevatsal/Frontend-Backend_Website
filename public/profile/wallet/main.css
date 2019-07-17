@@ -1,0 +1,145 @@
+body {
+	background: black;
+	font-family: sans-serif;
+	margin: 0;
+	color: white;
+	padding-bottom: 100px;
+}
+
+nav {
+	padding: 35px;
+	display: flex;
+	justify-content: space-between;
+}
+
+nav img {
+	height: 50px;
+}
+
+.money {
+	background: #e2e2e2;
+	color: black;
+	font-size: 22px;
+	font-weight: bold;
+	border-radius: 3px;
+	padding: 15px 32px;
+	margin-right: 40px;
+	border: 1px solid #f17b12;
+}
+
+.money p {
+	margin: 0px;
+}
+
+.menu{
+	border-top: 2px solid #e2e2e2;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	padding: 15px 200px;
+	/*margin: 0px 100px;*/
+	background: black;
+}
+
+.menu ul{
+	padding: 0px;
+	width: 100%;
+	list-style-type: none;
+	display: flex;
+	justify-content: space-between;
+}
+
+.menu ul i{
+	color:#e2e2e2;
+	font-size: 30px;
+	position: relative;
+}
+
+.menu ul i:hover{
+	font-size: 60px;
+	color: #f37b00;
+}
+.menu ul .special{
+	color: #f37b00;
+}
+.menu ul a{
+	text-decoration: none;
+}
+
+@media(max-width: 900px){
+	.menu{
+		padding: 15px 60px;
+	}
+}
+@media (max-width: 575.98px) {
+	nav {
+		padding: 35px 20px;
+		padding-bottom: 0px;
+	}
+	.menu{
+		       padding: 15px 31px;
+	}
+}
+
+.buttons{
+	width: 90%;
+	margin-top: 20%;
+	margin-left:20px;
+	margin-top: 35px;
+}
+
+.buttons button {
+	width: 100%;
+	padding: 10px 30px;
+	border: none;
+	border-radius: 5px;
+	color: white;
+	font-size: 18px;
+	margin-bottom: 20px;
+}
+
+.buttons .add{
+	background: #f17b12;
+}
+
+.buttons .redeem{
+	background: #005e82;
+}
+
+.wallet{
+	margin-left: 120px;
+	margin-top: 60px;
+}
+
+.wallet i{
+	font-size: 80px;
+	color: #f17b12;
+}
+.redeemmoney , .addmoney{
+display: none;
+}
+.addmoney ,.redeemmoney{
+text-align:center;
+padding:30px;
+padding-top:0px;
+}
+.addmoney input ,.redeemmoney input{
+width: 35%;
+font-size: 25px;
+padding:10px 20px;
+margin-bottom:10px;
+border:none;
+}
+.addmoney .submit1 ,.redeemmoney .submit2{
+display: block;
+margin-left:26%;
+padding:12px 32px ;
+font-size:20px;
+border-radius: 4px;
+background: #03A9F4;
+border: none;
+text-decoration: none;
+color:white;
+width: 27%;
+}

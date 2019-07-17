@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="main.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+	<title>Wallet</title>
+</head>
+<body>
+	<!-- <script>
+		var body=document.querySelector('body')
+		var token=localStorage.getItem('token')
+		body.innerHTML+=`<a class=".finalpaymentbtn" href="../../paywithpaytm?amount=1&token=${token}">Pay rs1</a>`
+	</script> -->
+
+	<nav>
+		<img src="../../images/nav.png">
+		<div class="money">
+			<p>Rs ..</p>
+		</div>
+	</nav>
+
+	<div class="wallet">
+		<i class="fas fa-money-check-alt"></i>
+	</div>
+
+	<div class="buttons" >
+		<button class="add">Add Money to wallet</button>
+		<button class="redeem">Redeem money</button>
+	</div>
+	<div class="addmoney">
+		<h1>Enter Amount to Add</h1>
+		<input type="text" placeholder="0" class="moneyinput">
+		<a class="submit1">Add  </a>
+	</div>
+	<div class="redeemmoney">
+<h1>Enter Amount to Withdraw From Wallet</h1>
+		<input type="text" placeholder="0" class="moneyinput2">
+		<a class="submit2">Withdraw  </a>
+	</div>
+	<div class="menu">
+	<ul>
+		<li><a href="../../" ><i class="fas fa-gamepad" ></i></a></li>
+		<li><a href="../../ongoing/index.html" ><i class="far fa-clock "></i></a></li>
+		<li><a href="../../result/index.html" ><i class="fas fa-clipboard-list"></i></a></li>
+		<li><a href="../../match/index.html" ><i class="fab fa-ioxhost"></i></a></li>
+		<li><a href="../" ><i class="far fa-user special"></i></a></li>
+	</ul>
+</div>
+<script src="main.js"></script>
+</body>
+</html>

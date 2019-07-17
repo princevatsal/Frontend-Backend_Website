@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+		<script>
+				if(!localStorage.getItem('token')){
+			window.location.href='../login'
+		}
+	</script>
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+	<link rel="stylesheet" href="main.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Profile</title>
+</head>
+<body>
+	<div class="menu">
+	<ul>
+		<li><a href="../index.html" ><i class="fas fa-gamepad " ></i></a></li>
+		<li><a href="../ongoing" ><i class="far fa-clock "></i></a></li>
+		<li><a href="../result" ><i class="fas fa-clipboard-list"></i></a></li>
+		<li><a href="../match" ><i class="fab fa-ioxhost"></i></a></li>
+		<li><a href="" ><i class="far fa-user special"></i></a></li>
+	</ul>
+</div>
+	<div class="details">
+		<img src="../images/avtar.png" alt="no img " class="avtar">
+		<div class="info">
+			<h3 class="username" style="display: -webkit-inline-box;">..</h3>
+			<a href="edit"><img src="../images/pencil2.png" id="pencil"></a>
+			<p>Balance:</p>
+			<h3 class="money">Rs..</h3>
+		</div>
+	</div>
+	<div class="container">
+		<a href="wallet"><div class="mywallet card" ><i class="fas fa-wallet"></i>My Wallet</div></a>
+		<a href="../logout"><div class="logout card"><i class="fas fa-sign-out-alt"></i>Log Out</div></a>
+	</div>
+	<p class="other">Other</p>
+	<div class="us">
+		<a href="edit" style="text-decoration: none;"><div class="terms card2"><i class="fas fa-book-open"></i>Edit User Info</div></a>
+		<div class="contactus card2"><i class="fas fa-mobile"></i>Contact Us</div>
+	</div>
+<script type="text/javascript" src="main.js"></script>
+</body>
+</html>

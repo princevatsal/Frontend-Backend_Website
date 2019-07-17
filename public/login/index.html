@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="main.css">
+	<title>Login</title>
+	<script>
+		if(localStorage.getItem('token')){
+			window.location.href='../'
+		}
+	</script>
+</head>
+
+<body>
+		<div class="image">
+			<img src="../images/mainlogo.png" alt="can't load image">
+		</div>
+
+		<div class="form">
+				<h1>Login Here</h1>
+				<form action="">
+					  
+					<div class="inputbox" class="username">
+						<input type="text" required="" id="Email">
+						<label >Email</label>
+					</div>
+					
+					<div class="inputbox">
+						<input type="password" required="" id="password" class="password">
+						<label >Password</label>
+					</div>
+					<input type="submit" name="" value="Submit" id="submit">
+					<div class="wait"><img src="../images/loading.png" alt=""></div>
+				</form>
+		
+		</div>
+
+		<div class="create">
+			<p>Don't have an account?</p>
+			<a href="../signup">Create Now</a>
+		</div>
+	<script src="main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="main.css">
+	<title>Signup</title>
+	<script>
+		if(localStorage.getItem('token')){
+			window.location.href='../'
+		}
+	</script>
+</head>
+
+<body>
+	<div class="image">
+		<img src="../images/nav.png" alt="Can't load image">
+	</div>
+
+	<div class="form">
+			<h1>Sign Up</h1>
+
+		<form action="">
+			<div class="inputbox">
+				<input type="text" required="">
+				<label >Pubg Username<i style="color: #f17b12;">*</i></label>
+			</div>
+			<div class="inputbox">
+					<input class="phone" type="text" required="">
+					<label >Phone</label>
+			</div>
+			<div class="inputbox">
+					<input type="text" required="">
+					<label >Email</label>
+			</div>
+			<div class="inputbox">
+					<input type="password" required="">
+					<label >Password</label>
+			</div>
+			<div class="inputbox">
+					<input type="text" required="">
+					<label >Paytm No</label>
+			</div>
+			<input type="submit" class="submit" value="Submit">
+			<div class="wait">
+				<img src="../images/loading.png" alt="">
+			</div>
+		</form>
+	</div>
+	<div class="create">
+			<p>Already have an account?</p>
+			<a href="../login">LogIn</a>
+		</div>
+	<script src="main.js"></script>
+</body>
+
+</html>
